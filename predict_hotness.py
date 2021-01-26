@@ -52,7 +52,7 @@ def main(params):
         prob_hotness = prob_hotness.cpu().detach().numpy()
 
         if params.num_classes > 1:
-            pred_cont = prob_hotness.dot(np.arange(0, params.num_classes).reshape(-1, 1)).reshape(-1)
+            pred_cont = prob_hotness.dot(np.arange(1, params.num_classes+1).reshape(-1, 1)).reshape(-1)
 
         print(np.mean(pred_cont), np.std(pred_cont))
 
