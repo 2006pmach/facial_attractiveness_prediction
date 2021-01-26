@@ -20,11 +20,11 @@ Please download the CNN pytorch model weight including the folders [here](https:
 
 ## Running the Scripts
 
-`python predict_hotness.py predict_bins_hotness_densenet201_blinq images/merkel.jpg`
+`python predict_hotness.py predict_bins_hotness_densenet201_blinq path_to_img`
 
 or
 
-`python predict_hotness.py predict_bins_hotness_densenet201_medical images/merkel.jpg`
+`python predict_hotness.py predict_bins_hotness_densenet201_medical path_to_img`
 
 ## Examples
 
