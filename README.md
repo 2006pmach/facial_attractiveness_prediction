@@ -4,7 +4,7 @@ This repository provide the code to assess the attraciveness of medical images.
 The models are: BLINQ- trained on a private dataset obtained from the BLINQ dating app and MEDICAL- the further fine-tuned model using the [Chicago Face Dataset](https://chicagofaces.org/default/).
 We provide the pretrained and the fine-tuned models in order to predict the attractiveness given a facial image.
 
-The maximal score is 10 and the miniaml 1. However, in BLINQ the assigned scores tend to be lower than on CFD such that 10s are very rare in the former.
+The maximal score is 10 and the minimal 1. However, in BLINQ the assigned scores tend to be lower than on CFD such that 10s are very rare in the former.
 
 
 ## Requirements
