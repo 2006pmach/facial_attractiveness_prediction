@@ -3,6 +3,8 @@
 This repository provide the code to assess the attraciveness of medical images.
 The models are trained on a private dataset obtained from the BLINQ dating app and further fine-tuned using the [Chicago Face Dataset](https://chicagofaces.org/default/). We provide the pretrained and the fine-tuned models in order to predict the attractiveness given a facial image.
 
+The maximal score is 10 and the miniaml 1. However, in BLINQ the assigned scores tend to be lower than on CFD such that 10s are very rare in the former.
+
 
 ## Requirements
 ```
@@ -25,4 +27,18 @@ or
 
 ## Examples
 
-We run our model for demonstration purposes here on two publicly available images from the Web.
+We run our model for demonstration purposes here on two publicly available images from the Web (downloaded from Wikipedia).
+
+![alt text](https://github.com/2006pmach/facial_attractiveness_prediction/blob/main/images/Angela_Merkel_wikipedia.jpg "Angela Merkel")
+
+This picture of Angela Merkel achieves an attractiveness score of 
+`2.8298629105168402` with a standard deviation of `0.08772472325731635` (BLINQ) and 
+`3.557292120774966` with a standard deviation of `0.2021892417092418` (CFD). 
+
+Note, that we feed the image 20 times through the CNN with random augmentations to compute the mean and standard deviation.
+
+![alt text](https://github.com/2006pmach/facial_attractiveness_prediction/blob/main/images/Katheryn_Winnick_wikipedia.jpg "Katheryn Winnick")
+
+This picture of Katheryn Winnick achieves an attractiveness score of 
+`6.378340877147275` with a standard deviation of `0.13951626876974346` (BLINQ) and 
+`7.932078346675053` with a standard deviation of `0.03819095674717804` (CFD). 
