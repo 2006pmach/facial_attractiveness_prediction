@@ -34,6 +34,7 @@ We run our model for demonstration purposes here on two publicly available image
 This picture of Angela Merkel achieves an attractiveness score of 
 
 `2.8298629105168402` with a standard deviation of `0.08772472325731635` (BLINQ) and 
+
 `3.557292120774966` with a standard deviation of `0.2021892417092418` (CFD). 
 
 Note, that we feed the image 20 times through the CNN with random augmentations to compute the mean and standard deviation.
@@ -43,4 +44,5 @@ Note, that we feed the image 20 times through the CNN with random augmentations 
 This picture of Katheryn Winnick achieves an attractiveness score of 
 
 `6.378340877147275` with a standard deviation of `0.13951626876974346` (BLINQ) and 
+
 `7.932078346675053` with a standard deviation of `0.03819095674717804` (CFD). 
