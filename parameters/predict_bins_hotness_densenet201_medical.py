@@ -14,6 +14,6 @@ class Parameters(BaseParameters):
         self.batchsize = 32
         self.num_classes = 10
         self.arch = "densenet201"
-        self.model_path = "checkpoints/train_hotness_bins_all_densenet201_cfd"
+        self.model_path = "checkpoints/train_hotness_bins_all_densenet201_medical"
 
         self.num_iter = 10
