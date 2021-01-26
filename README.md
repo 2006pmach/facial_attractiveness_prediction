@@ -33,7 +33,7 @@ We run our model for demonstration purposes here on two publicly available image
 
 This picture of Angela Merkel achieves an attractiveness score of 
 
-`2.8298629105168402` with a standard deviation of `0.08772472325731635` (BLINQ) and 
+`2.829862910516840` with a standard deviation of `0.0877247232573163` (BLINQ) and 
 
 `3.557292120774966` with a standard deviation of `0.2021892417092418` (CFD). 
 
