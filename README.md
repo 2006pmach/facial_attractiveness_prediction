@@ -2,7 +2,7 @@
 
 This repository provide the code to assess the attraciveness and age of medical images.
 The attractiveness models are: BLINQ- trained on a private dataset obtained from the BLINQ dating app and MEDICAL- the further fine-tuned model using the [Chicago Face Dataset](https://chicagofaces.org/default/).
-The age models are: [WikiIMDB](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) trained and further fine-tuned using the [APPA Real Dataset](https://chalearnlap.cvc.uab.cat/dataset/26/description/)
+The age models are: [WikiIMDB](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) trained and further fine-tuned using the [APPA Real Dataset](https://chalearnlap.cvc.uab.cat/dataset/26/description/).
 We provide the pretrained and the fine-tuned models in order to predict the attractiveness and age given a facial image.
 
 The maximal attractiveness score is 10 and the minimal 1. However, in BLINQ the assigned scores tend to be lower than on CFD such that 10s are very rare in the former.
