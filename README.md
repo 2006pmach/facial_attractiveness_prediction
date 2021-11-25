@@ -50,7 +50,8 @@ This picture of Angela Merkel achieves an attractiveness score of
 
 and an age estimation of
 
-`57.4361633341181` with a standard deviation of `1.709792667712001` (WikiIMDB) and 
+`57.4361633341181` with a standard deviation of `1.709792667712001` (WikiIMDB) and
+
 `60.83877001864456` with a standard deviation of `1.1122933985426469` (APPA Real). 
 
 Note, that we feed the image 20 times through the CNN with random augmentations to compute the mean and standard deviation.
