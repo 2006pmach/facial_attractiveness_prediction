@@ -9,9 +9,7 @@ class Parameters(BaseParameters):
         self.save_path = "."
 
         self.img_shape = (256, 256)
-        self.transforms = ["rotate", "flip", "translate"]
 
-        self.batchsize = 32
         self.num_classes = 10
         self.arch = "densenet201"
         self.model_path = "checkpoints/train_hotness_bins_female_densenet201_blinq"

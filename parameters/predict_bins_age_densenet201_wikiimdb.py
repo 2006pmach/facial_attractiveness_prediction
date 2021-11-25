@@ -10,8 +10,8 @@ class Parameters(BaseParameters):
 
         self.img_shape = (256, 256)
 
-        self.num_classes = 10
+        self.num_classes = 101
         self.arch = "densenet201"
-        self.model_path = "checkpoints/train_hotness_bins_all_densenet201_medical"
+        self.model_path = "checkpoints/train_age_bins_all_densenet201_wikiimdb"
 
-        self.num_iter = 10
+        self.num_iter = 1

@@ -1,4 +1,3 @@
-import torch
 import torch.nn as nn
 from torchvision import models
 
@@ -29,12 +28,3 @@ def change_linear_layer(model, arch, num_classes):
         model.fc = nn.Linear(num_ftrs, num_classes)
 
     return model
-
-
-def build_criterion(num_classes, weight=None):
-    if num_classes == 1:
-        criterion = nn.MSELoss(reduction="mean")
-    else:
-        criterion = nn.CrossEntropyLoss(weight=weight, reduction="mean")
-
-    return criterion

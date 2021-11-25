@@ -27,7 +27,7 @@ def load_checkpoint(checkpoint_dir, model_name="checkpoint.pth", cuda_is_availab
     return checkpoint
 
 
-def build_train_transformations(params, convert_gray_to_rgb=False):
+def build_pred_transformations(params, convert_gray_to_rgb=False):
     transform_list = []
 
     if convert_gray_to_rgb:
